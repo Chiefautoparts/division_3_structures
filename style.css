@@ -47,6 +47,66 @@ body {
     margin-top: 10px;
 }
 
+/**************
+Nav Menu
+**************/
+
+.nav-menu {
+    display: block;
+    outline-style: double;
+    outline-width: thick;
+    width: 60%;
+
+}
+
+.nav-menu ul {
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav-menu a:hover {
+    background-color: #005f5f;
+}
+
+.nav-menu a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav-menu li {
+        width: 120px;
+        border-bottom: none;
+        height:50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
 
 
 
