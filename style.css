@@ -52,6 +52,51 @@ body {
 Nav Menu
 **************/
 
+#nav-button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 20px;
+    top: 300px;
+    font-size: 30px;
+    text-align: center;
+    pointer: cursor;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#nav-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.link-span {
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    padding: 8px 0px 2px 0px;
+    line-height: 20px;
+    margin: 0px;
+    border: 0px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-span:hover {
+    background-color: #000;
+    color: #fff;
+    opacity: 1;
+}
+
 /*.nav-menu {
     display: block;
     outline-style: double;

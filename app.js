@@ -2,11 +2,11 @@
 
 var navButton = document.getElementById('nav-button');
 var navBox = document.getElementById('nav-box');
-var linkSpan = document.getElementClassName('link-span');
+var linkSpan = document.getElementsByClassName('link-span');
 
 navBox.style.display = 'none';
 navButton.addEventListener('click', displayBox);
-navBox.addEventListener('mouseleave', hidebox);
+navBox.addEventListener('mouseleave', hideBox);
 
 function displayBox() {
 	if (navBox.style.display === 'none') {
