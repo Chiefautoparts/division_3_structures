@@ -14,16 +14,21 @@ body {
     color: #0047ab;
 }
 
-.header #imagePlaceHolder {
-    height: 150px;
-    width: 150px;
-    background-color: #DE1515;
+.header #logo {
+    width: 70%;
+    height: 350px;
+}
+
+/*.header #imagePlaceHolder {
+    height: 400px;
+    width: 400px;
+    /*background-color: #DE1515;
     position: absolute;
     top: 30px;
     
-}
+}*/
 
-.header #imagePlaceHolder p {
+/*.header #imagePlaceHolder p {
     font-weight: bold;
     background-color: #FFF;
     color: #000;
@@ -31,7 +36,7 @@ body {
     position: relative;
     top: 35px;
     left: 50px;
-}
+}*/
 
 .header #title {
     font-size: 10em;
