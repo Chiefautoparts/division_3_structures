@@ -161,6 +161,22 @@ MAIN BODY
     border-color: #454545;
 }
 
-table {
 
+.img {
+    border-style: ridge;
+    border-width: thick;
+    border-color: #000;
+    padding: 10px;
+}
+#captions {
+    background-color: #999;
+    opacity: 0.7;
+}
+
+.cap {
+    font-size: 1.7em;
+    border-style: ridge;
+    border-width: thick;
+    border-color: #000;
+    font-weight: bold;
 }
