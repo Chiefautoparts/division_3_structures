@@ -174,3 +174,14 @@ AD SPACE
     width: 250px;
     height: 420px;
 }
+
+/****************
+Footer
+****************/
+
+#contact-info {
+    border: solid thick #000;
+    display: block;
+    font-size: 2em;
+    
+}
